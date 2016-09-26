@@ -8,7 +8,11 @@ print sentence.capitalize()
 
 #reverses the sentence
 sentence = raw_input("Please give me a sentence. ")
-print sentence[::-1]
+# print sentence[::-1]
+empty = ""
+for i in sentence:
+     i + empty
+     print empty
 
 
 #ciphers the users sentence
